@@ -1,0 +1,80 @@
+body {
+    background-color: #f8f8f8;
+}
+
+h3 {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+p,
+label,
+ul {
+    font-family: 'Public Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+input,
+textarea {
+    font-family: inherit;
+    color: darkblue;
+    font-style: italic;
+}
+
+.button {
+    font-family: inherit;
+    color: black;
+    font-style: normal;
+}
+
+.short_desc {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full_desc {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.object_characteristics > li {
+    font-size: 12px;
+    line-height: 20px;
+    font-family: inherit;
+    list-style-image: url(img/small-house-icon-1.svg);
+}
+
+.subsidiary_info > li {
+    font-size: 12px;
+    line-height: 20px;
+    font-family: inherit;
+    list-style-type: square
+}
+
+.menu li {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 25px;
+    font-style: oblique;
+    list-style-type: none;
+}
+
+.menu li a {
+    color: #613832;
+}
+
+.main_img {
+    border: 3px solid;
+    border-color: dimgrey;
+    width: 500px;
+}

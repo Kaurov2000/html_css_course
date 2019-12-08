@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Агентство недвижимости Уют</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC|Open+Sans|Public+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <p>Добро пожаловать на сайт агентства недвижимости &quot;Уют!&quot; Наш&nbsp;телефон&nbsp;8&nbsp;(342)&nbsp;123&nbsp;45&nbsp;67</p>
+    <hr> 
+    <p >
+        <ul class="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalogue.html">Каталог</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </p>
+    <hr>
+    <h1>Напишите нам</h1>
+    <form action="#">
+        <label for="1">
+            Ваше Имя <input type="text" name="client_name" id="1" placeholder="Иван Иванов" size=40>
+        </label>
+        <br>
+        <label for="2">
+            Ваш телефон <input type="text" name="client_email" id="2" placeholder="+71234567890" size =37>
+        </label>
+        <br>
+        <label for="3">
+           Тема сообщения
+            <select name="topic" id="3">
+                <option value="to_buy">Хочу купить недвижимость</option>
+                <option value="to_sell">Хочу продать недвижимость</option>
+                <option value="mortgage">Хочу оформить ипотеку</option>
+                <option value="insurance">Хочу оформить страховку недвижимости</option>
+                <option value="other">Другое</option>
+            </select>
+        </label>
+        <br>
+        <label for="4">
+           Текст сообщения<br>
+            <textarea name="message" id="4" cols="70" rows="10" placeholder="Ваше сообщение"></textarea>
+        </label>
+        <br>
+        <input class="button" type="submit" name="send_button" id="5" value="Отправить">
+        <input class="button" type="reset" name="clear_button" id="6" value="Очистить">
+    </form>
+    <h1>Наш адрес</h1>
+    <p>
+       <ul>
+           <li>г.Пермь, проспект Комсомольский, 77, оф. 401</li>
+           <li>Телефон: 8&nbsp;(342)&nbsp;123&nbsp;45&nbsp;67</li>
+           <li>Email: mailbox@uiut-realestate.ru</li>
+       </ul>
+    </p>
+    <iframe src="https://yandex.ru/map-widget/v1/-/CGhaA24R" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
+    <hr>
+    <footer>&copy;&nbsp;Все права защищены</footer>
+</body>
+</html>
